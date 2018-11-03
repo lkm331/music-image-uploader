@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle music-image-uploader",
+        "command": "music-image-uploader:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "music-image-uploader",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "music-image-uploader:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
